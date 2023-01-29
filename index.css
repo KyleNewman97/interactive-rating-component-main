@@ -1,0 +1,120 @@
+@font-face {
+    font-family: "Overpass";
+    src: url("assets/Overpass-VariableFont_wght.ttf") format("truetype");
+}
+
+body {
+    /* Size */
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+
+    /* Style */
+    background-color: hsl(216, 12%, 8%);
+
+    /* Control child presentation */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.feedback-window {
+    /* Size */
+    border-radius: 15px;
+    margin: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+    /* Style */
+    background-color: rgb(32, 38, 47);
+}
+
+.feedback-icon-section {
+    /* Size */
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 0px;
+
+    /* Style */
+    background-color: rgb(39, 46, 55);
+
+    /* Control child presentation */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feedback-icon {
+    /* Size */
+    width: 12px;
+
+    /* Content */
+    content: url("images/icon-star.svg");
+}
+
+.feedback-heading {
+    /* Size */
+    margin-top: 18px;
+    margin-bottom: 0px;
+
+    /* Style */
+    color: white;
+    font-family: "Overpass";
+    font-size: 22px;
+}
+
+.feedback-description {
+    /* Size */
+    margin-top: 148x;
+    margin-bottom: 0px;
+
+    /* Style */
+    color: hsl(217, 12%, 63%);
+    font-family: "Overpass";
+    font-weight: 300;
+}
+
+.feedback-rating-section {
+    /* Size */
+    margin-top: 35px;
+    margin-bottom: 0px;
+
+    /* Control child presentation */
+    display: flex;
+    justify-content: space-between;
+}
+
+.feedback-rating {
+    /* Size */
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 0px;
+
+    /* Style */
+    background-color: rgb(39, 46, 55);
+    color: hsl(217, 12%, 63%);
+    font-family: "Overpass";
+}
+
+.feedback-submit {
+    /* Size */
+    width: 100%;
+    height: 40px;
+    border-radius: 18px;
+    display: block;
+    margin-top: 22px;
+    margin-bottom: 0px;
+
+    /* Style */
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    border: 0px;
+    font-family: "Overpass";
+    letter-spacing: 0.2em;
+}
