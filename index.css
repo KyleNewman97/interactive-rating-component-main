@@ -102,6 +102,14 @@ body {
     background-color: rgb(39, 46, 55);
     color: hsl(217, 12%, 63%);
     font-family: "Overpass";
+
+    /* Interaction */
+    cursor: pointer;
+}
+
+.feedback-rating:active {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
 }
 
 .feedback-submit {
@@ -119,4 +127,12 @@ body {
     border: 0px;
     font-family: "Overpass";
     letter-spacing: 0.2em;
+
+    /* Interaction */
+    cursor: pointer;
+}
+
+.feedback-submit:active {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
 }
