@@ -28,6 +28,8 @@ body {
     padding-right: 20px;
     padding-top: 24px;
     padding-bottom: 24px;
+    min-width: 220px;
+    max-width: 295px;
 
     /* Style */
     background-color: rgb(32, 38, 47);
