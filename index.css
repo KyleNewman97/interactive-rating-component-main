@@ -107,11 +107,6 @@ body {
     cursor: pointer;
 }
 
-.feedback-rating:active {
-    background-color: hsl(25, 97%, 53%);
-    color: white;
-}
-
 .feedback-submit {
     /* Size */
     width: 100%;
