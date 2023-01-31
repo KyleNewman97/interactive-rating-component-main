@@ -37,10 +37,21 @@ function handleMouseDown(button) {
     button.style.color = '#ffffff';
 }
 
+/**
+ * A function to call when the mouse leaves the button's contents.
+ * @param {HTMLButtonElement} button 
+ */
+function handleMouseLeave(button) {
+    if (button.textContent == selectedRating) return;
+    button.style.backgroundColor = '#272e37';
+    button.style.color = '#959eac';
+}
+
 // Listen for rating button clicks
 const ratingButtons = document.getElementsByClassName('feedback-rating');
 for (i = 0; i < ratingButtons.length; i++) {
     const ratingButton = ratingButtons.item(i);
     ratingButton.onmousedown = () => handleMouseDown(ratingButton);
+    ratingButton.onmouseleave = () => handleMouseLeave(ratingButton);
     ratingButton.onmouseup = () => setAsActiveButton(ratingButton, ratingButtons);
 }
