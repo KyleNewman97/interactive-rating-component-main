@@ -131,3 +131,60 @@ body {
     background-color: white;
     color: hsl(25, 97%, 53%);
 }
+
+/* Thank you page CSS */
+.thank-you-section {
+    /* Control child presentation */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.thank-you-image {
+    /* Content */
+    content: url("images/illustration-thank-you.svg");
+
+    /* Size */
+    width: 118px;
+    margin-top: 10px;
+}
+
+.thank-you-description {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.thank-you-rating-section {
+    /* Size */
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 20px;
+    margin-top: 26px;
+
+    /* Style */
+    background-color: rgb(39, 46, 55);
+}
+
+.thank-you-rating {
+    /* Size */
+    margin: 0;
+    /* Style */
+    color: hsl(25, 97%, 53%);
+    font-family: "Overpass";
+    font-size: 14px;
+}
+
+/* 404 Error page */
+.four-o-four-title {
+    color: white;
+    font-family: "Overpass";
+}
+
+.four-o-four-description {
+    color: white;
+    font-family: "Overpass";
+}

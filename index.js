@@ -4,7 +4,10 @@ let selectedRating = null;
 // Find the feedback submit button
 const submitButton = document.getElementById('feedback-submit-button');
 submitButton.onclick = () => {
-    console.log(`Rating of ${selectedRating} submitted.`);
+    if (selectedRating == null) return;
+
+    sessionStorage.setItem('rating', selectedRating);
+    routeTo('/thank-you');
 };
 
 /**
